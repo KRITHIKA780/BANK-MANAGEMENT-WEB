@@ -1,0 +1,72 @@
+{
+  "users": {
+    "krithi": {
+      "password": "1234",
+      "wallet": {
+        "balance": 400,
+        "transactions": [
+          {
+            "id": "t4",
+            "type": "DEBIT",
+            "amount": 100,
+            "remark": "Mobile recharge: 9876543210",
+            "timestamp": "2025-11-08T10:00:00.000Z"
+          },
+          {
+            "id": "t3",
+            "type": "DEBIT",
+            "amount": 200,
+            "remark": "Bill payment: EB",
+            "timestamp": "2025-11-07T12:00:00.000Z"
+          },
+          {
+            "id": "t2",
+            "type": "DEBIT",
+            "amount": 300,
+            "remark": "Transfer to anu",
+            "timestamp": "2025-11-06T15:00:00.000Z"
+          },
+          {
+            "id": "t1",
+            "type": "CREDIT",
+            "amount": 1000,
+            "remark": "Add funds",
+            "timestamp": "2025-11-05T09:00:00.000Z"
+          }
+        ]
+      }
+    },
+    "anu": {
+      "password": "2222",
+      "wallet": {
+        "balance": 300,
+        "transactions": [
+          {
+            "id": "a1",
+            "type": "CREDIT",
+            "amount": 300,
+            "remark": "Transfer from krithi",
+            "timestamp": "2025-11-06T15:00:00.000Z"
+          }
+        ]
+      }
+    },
+    "krithika": {
+      "password": "12345",
+      "wallet": {
+        "balance": 0,
+        "transactions": []
+      }
+    },
+    "dd": {
+      "password": "12345",
+      "wallet": {
+        "balance": 0,
+        "transactions": []
+      }
+    }
+  },
+  "tokens": {
+    "6f01228b-f7b0-4bd3-b06b-e6b9397e875b": "dd"
+  }
+}
